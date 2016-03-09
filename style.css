@@ -1,0 +1,75 @@
+.email-background {
+    background: #eee;
+    padding: 10px;
+}
+
+.email-container,
+.pre-header,
+.footer-junk {
+    max-width: 500px;
+    background: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.email-container a,
+.pre-header a,
+.footer-junk a {
+    color: #3D87F5;
+}
+
+.email-container h1,
+.pre-header h1,
+.footer-junk h1 {
+    text-align: center;
+}
+
+.email-container img,
+.pre-header img,
+.footer-junk img {
+    max-width: 100%;
+}
+
+.email-container p,
+.pre-header p,
+.footer-junk p {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #666;
+    line-height: 1.5;
+}
+
+.email-container .cta,
+.pre-header .cta,
+.footer-junk .cta {
+    text-align: center;
+    margin: 20px;
+}
+
+.email-container .cta a,
+.pre-header .cta a,
+.footer-junk .cta a {
+    text-decoration: none;
+    display: inline-block;
+    background: #3D87F5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.pre-header {
+    background: #eee;
+    color: #eee;
+    font-size: 5px;
+}
+
+.footer-junk {
+    background: none;
+    font-size: 12px;
+    padding: 20px;
+}
