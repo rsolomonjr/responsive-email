@@ -4,12 +4,16 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0"
-  }
+    "gulp-sass": "^2.2.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
